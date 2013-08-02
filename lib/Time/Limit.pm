@@ -6,7 +6,7 @@ use warnings;
 
 BEGIN {
 	$Time::Limit::AUTHORITY = 'cpan:TOBYINK';
-	$Time::Limit::VERSION   = '0.001';
+	$Time::Limit::VERSION   = '0.002';
 }
 
 use Carp qw( carp );
@@ -17,7 +17,7 @@ sub import
 	shift;
 	
 	my %opts;
-	while ($_[0] =~ /^-(.+)$/) {
+	while (@_ and $_[0] =~ /^-(.+)$/) {
 		shift;
 		$opts{ $1 }++;
 	}

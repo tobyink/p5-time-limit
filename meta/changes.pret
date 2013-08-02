@@ -4,3 +4,9 @@
 	issued  2013-08-02;
 	label   "Initial release".
 
+`Time-Limit 0.002 cpan:TOBYINK`
+	issued  2013-08-02;
+	changeset [
+		item "Eliminate warning when no explicit limit is given."^^Bugfix;
+	].
+
