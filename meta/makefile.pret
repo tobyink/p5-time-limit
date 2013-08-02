@@ -1,0 +1,10 @@
+# This file provides instructions for packaging.
+
+@prefix : <http://ontologi.es/doap-deps#>.
+
+`Time-Limit`
+	perl_version_from m`Time::Limit`;
+	version_from      m`Time::Limit`;
+	readme_from       m`Time::Limit` ;
+	.
+
