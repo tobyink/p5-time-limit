@@ -1,0 +1,6 @@
+@prefix deps:  <http://ontologi.es/doap-deps#> .
+
+<http://purl.org/NET/cpan-uri/dist/Time-Limit/project>
+	deps:runtime-requirement         [ deps:on "Time::HiRes"^^deps:CpanId ];
+	deps:test-requirement            [ deps:on "Test::More 0.96"^^deps:CpanId ].
+
