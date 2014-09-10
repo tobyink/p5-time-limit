@@ -6,7 +6,7 @@ use warnings;
 
 BEGIN {
 	$Time::Limit::AUTHORITY = 'cpan:TOBYINK';
-	$Time::Limit::VERSION   = '0.002';
+	$Time::Limit::VERSION   = '0.003';
 }
 
 use Carp qw( carp );
